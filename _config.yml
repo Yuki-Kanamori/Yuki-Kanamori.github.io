@@ -33,6 +33,9 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
+- jekyll-remote-theme
+
+remote_theme: daviddarnes/alembic@main
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
@@ -131,8 +134,6 @@ navigation_header:
   url: /categories/
 - title: Search
   url: /search/
-- title: Fork Alembic
-  url: https://github.com/daviddarnes/alembic
 
 navigation_footer:
 - title: Created by David Darnes
