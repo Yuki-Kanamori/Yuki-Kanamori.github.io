@@ -128,11 +128,11 @@ navigation_header:
   url: /
 - title: 研究内容
   url: /elements/
-- title: Blog
+- title: 原著論文
   url: /blog/
-- title: Categories
+- title: お仕事
   url: /categories/
-- title: Search
+- title: English
   url: /search/
 
 navigation_footer:
