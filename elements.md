@@ -1,144 +1,24 @@
 ---
-title: Elements
+title: 
 feature_text: |
-  A demo of Markdown and HTML includes
 feature_image: "https://picsum.photos/2560/600?image=873"
-excerpt: "A demo of Markdown and HTML includes"
+excerpt: ""
 aside: true
 ---
+## 大学院
+岩礁潮間帯の固着生物群集を対象に，群集動態（特に種組成の時間変化）の空間変異性がどのようなプロセスによって生じているのかについて，群集行列モデルや離散ロトカ-ヴォルテラモデルを用いて解析し，学位を取得しました．
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-<small>A small element</small>
-
-[A link](https://david.darn.es "A link")
-
-Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
-
-Duis aute irure dolor in [A link](https://david.darn.es "A link") reprehenderit in voluptate velit esse cillum **bold text** dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt _italicised text_ in culpa qui officia deserunt mollit anim id `some code` est laborum.
-
-* An item
-* An item
-* An item
-* An item
-* An item
-
-1. Item one
-2. Item two
-3. Item three
-4. Item four
-5. Item five
-
-> A simple blockquote
-
-Some HTML...
-
-``` html
-<blockquote cite="http://www.imdb.com/title/tt0284978/quotes/qt1375101">
-  <p>You planning a vacation, Mr. Sullivan?</p>
-  <footer>
-    <a href="http://www.imdb.com/title/tt0284978/quotes/qt1375101">Sunways Security Guard</a>
-  </footer>
-</blockquote>
-```
-
-...CSS...
-
-``` css
-blockquote {
-  text-align: center;
-  font-weight: bold;
-}
-blockquote footer {
-  font-size: .8rem;
-}
-```
-
-...and JavaScript
-
-``` js
-const blockquote = document.querySelector("blockquote")
-const bolden = (keyString, string) =>
-  string.replace(new RegExp(keyString, 'g'), '<strong>'+keyString+'</strong>')
-
-blockquote.innerHTML = bolden("Mr. Sullivan", blockquote.innerHTML)
-```
-
-`Single line of code`
-
-## HTML Includes
-
-### Contact form
-
-{% include site-form.html %}
-
-``` html
-{% raw %}{% include site-form.html %}{% endraw %}
-```
-
-### Demo map embed
-
-{% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" title="Coffee shop map" %}
-
-``` html
-{% raw %}{% include map.html id="XXXXXX" title="Coffee shop map" %}{% endraw %}
-```
-
-### Button include
-
-{% include button.html text="A button" link="https://david.darn.es" %}
-
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}
-
-``` html
-{% raw %}{% include button.html text="A button" link="https://david.darn.es" %}
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}{% endraw %}
-```
-
-### Icon include
-
-{% include icon.html id="twitter" title="twitter" %} [{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes)
-
-``` html
-{% raw %}{% include icon.html id="twitter" title="twitter" %}
-[{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes){% endraw %}
-```
-
-### Video include
-
-{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}
-
-``` html
-{% raw %}{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}{% endraw %}
-```
+学位論文: Spatial variation in community dynamics in intertidal sessile assemblages
 
 
-### Image includes
+## 水産研究・教育機構
+### 気候変動に対する種の応答が群集や生態系に与える影響
+気候変動に対する生物の応答は様々です．分布域が北へ，深場へ，高標高へと移動している生物も多くいますが，分布域があまり変化していない生物もいます．例えば日本周辺では，太平洋に生息するマサバの産卵場は2000年以降徐々に北へ移動していますが（Kanamori et al. 2019），近縁種のゴマサバの産卵場はあまり変化していません（Kanamori et al. 2021）．また，アブラツノザメの分布域もあまり変化いませんが，日本周辺への来遊時期が早くなっています（Kanamori et al. 2023）．このような種固有の応答が群集構造や生態系に対してどのような影響を与えるのかについて興味を持ち研究しています※．対象生物にこだわりはなく，現在は水深150-900mに生息する底生性魚類を解析しています．
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
+※ 令和4-6年度　交付金研究開発プロジェクト「気候変動下における水産資源の分布域の変化が魚類組成の空間変化と生態系の変動特性に与える影響」（代表者: 金森由妃）
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Right aligned image" position="right" width="300" height="800" %}
+### 時空間モデルの利用と拡張
+気候変動にともなう生物の分布域の変化を調べる際には，長期・広域データが必要不可欠ですが，データには様々な課題が含まれている場合があります．モニタリングでは，調査コストや突発的なイベントなどで，調査のデザインや努力量は変化することがあります．市民データでは，サンプリングの空間的な偏りが生じていることがあります．例えば，漁業データでは，魚がたくさん獲れる場所で漁をするため，データ収集地点と生物量との間に関係があると考えられます．こういった特徴を持ったデータをそのまま使って分布域の変化を調べると，生物の変化なのか？人間の行動の変化なのか？が区別できなくなってしまいます．このような課題を解決する一つの方法が時空間モデルによる生物の分布域の推定で，気候変動の研究課題と合わせてモデルの利用と拡張を行っています．
 
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
+最近ではオープンデータが増えてきていますが，1つ1つの調査データがグリッドに集約されていたり，ある日の複数点のデータがその日の代表点に集約されていたりと，データが時空間的に丸め込まれていることがあります．こういった丸め込まれたデータに対応した時空間モデルにもチャレンジしたいと考えています．
 
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
-
-``` html
-{% raw %}{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Right aligned image" position="right" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}{% endraw %}
-```
