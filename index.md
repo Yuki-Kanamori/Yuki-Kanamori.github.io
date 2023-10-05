@@ -13,5 +13,4 @@ excerpt: ""
 - 2013〜現在  日本生態学会
 - 2013〜現在  個体群生態学会  
 
-{% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Buy me a coffee \CID{137}" link="https://buymeacoffee.com/daviddarnes#support" color="#f68140" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic \CID{180}" link="https://github.com/daviddarnes/alembic#installation" %}
-
+{% include button.html text="Research Gate" link="https://www.researchgate.net/profile/Yuki-Kanamori" color="#0366d6" %} {% include button.html text="Google Scholar" link="https://scholar.google.com/citations?user=l15UBuAAAAAJ&hl=ja" color="#0366d6" %} {% include button.html text="GitHub" icon="github" link="https://github.com/Yuki-Kanamori" color="#0366d6" %}
