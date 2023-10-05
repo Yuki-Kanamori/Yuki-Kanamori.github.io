@@ -128,16 +128,16 @@ navigation_header:
   url: /
 - title: 研究内容
   url: /elements/
-- title: 原著論文
-  url: /blog/
+- title: Publications
+  url: /publ/
 - title: お仕事
   url: /categories/
 - title: English
   url: /search/
 
 navigation_footer:
-- title: Created by David Darnes
-  url: https://darn.es
+- title: 
+  url: 
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   ResearchGata: https://www.researchgate.net/profile/Yuki-Kanamori
