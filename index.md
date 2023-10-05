@@ -1,5 +1,5 @@
 ---
-title: 
+title: ""
 feature_text: |
 feature_image: "/assets/P7310149.JPG"
 excerpt: ""
